@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handyman Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4682B4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .services, .pricing, .contact {
+            margin: 20px 0;
+        }
+        .service-item, .price-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info h3 {
+            margin: 0;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Handyman Profile</h1>
+        <p>Your go-to expert for all home repairs and improvements!</p>
+    </header>
+
+    <section class="services">
+        <h2 class="section-title">Services Offered</h2>
+        <div class="service-item">
+            <h3>Plumbing Repairs</h3>
+            <p>Fixing leaky faucets, pipe repairs, and more.</p>
+        </div>
+        <div class="service-item">
+            <h3>Electrical Work</h3>
+            <p>Light fixture installations, wiring repairs, and more.</p>
+        </div>
+        <div class="service-item">
+            <h3>Carpentry</h3>
+            <p>Furniture assembly, door and window repairs, custom woodwork.</p>
+        </div>
+        <div class="service-item">
+            <h3>Painting</h3>
+            <p>Interior and exterior painting, touch-ups, and full paint jobs.</p>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2 class="section-title">Pricing</h2>
+        <div class="price-item">
+            <h3>Hourly Rate: $40/hour</h3>
+        </div>
+        <div class="price-item">
+            <h3>Plumbing Repair: $60 flat rate</h3>
+        </div>
+        <div class="price-item">
+            <h3>Light Fixture Installation: $50 per fixture</h3>
+        </div>
+        <div class="price-item">
+            <h3>Furniture Assembly: Starting at $30</h3>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="contact-info">
+            <h3>John Doe - Handyman</h3>
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Serving Wake County and surrounding areas.</p>
+        </div>
+    </section>
+
+</body>
+</html>
